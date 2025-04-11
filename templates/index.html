@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest Video Downloader | Download Pinterest Videos Easily</title>
+    <meta name="description" content="Free online tool to download Pinterest videos. Just paste the Pinterest video URL and download high-quality videos instantly.">
+    <meta name="keywords" content="Pinterest video downloader, download Pinterest videos, Pinterest video saver, Pinterest MP4 downloader">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Pinterest Video Downloader">
+    <meta property="og:description" content="Download Pinterest videos with just one click">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='img/favicon.ico') }}" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fab fa-pinterest"></i>
+                <h1>Pinterest Video Downloader</h1>
+            </div>
+            <p>Download any Pinterest video with just one click</p>
+        </header>
+        
+        <main>
+            <div class="download-box">
+                <form id="download-form">
+                    <div class="input-group">
+                        <input type="url" id="pinterest-url" placeholder="Paste Pinterest video URL here..." required>
+                        <button type="submit" id="download-btn">
+                            <i class="fas fa-download"></i> Download
+                        </button>
+                    </div>
+                </form>
+                
+                <div id="loader" class="hidden">
+                    <div class="spinner"></div>
+                    <p>Processing your video...</p>
+                </div>
+                
+                <div id="result" class="hidden">
+                    <div class="video-preview">
+                        <div class="thumbnail-container">
+                            <img id="video-thumbnail" src="" alt="Video thumbnail">
+                            <div class="play-icon">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <h3 id="video-title">Pinterest Video</h3>
+                            <div class="video-meta">
+                                <span id="video-size"><i class="fas fa-file"></i> Unknown</span>
+                                <span id="video-type"><i class="fas fa-video"></i> MP4</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a id="download-link" class="download-button" target="_blank">
+                        <i class="fas fa-download"></i> Download Video
+                    </a>
+                    <button id="new-search" class="secondary-button">
+                        <i class="fas fa-search"></i> Download Another Video
+                    </button>
+                </div>
+                
+                <div id="error-message" class="hidden">
+                    <div class="error-icon">
+                        <i class="fas fa-exclamation-circle"></i>
+                    </div>
+                    <p id="error-text"></p>
+                    <button id="try-again" class="secondary-button">
+                        <i class="fas fa-redo"></i> Try Again
+                    </button>
+                </div>
+            </div>
+            
+            <div class="how-to-use">
+                <h2><i class="fas fa-info-circle"></i> How to Download Pinterest Videos</h2>
+                <ol>
+                    <li><i class="fas fa-copy"></i> Copy the Pinterest video URL from your browser</li>
+                    <li><i class="fas fa-paste"></i> Paste the URL in the input box above</li>
+                    <li><i class="fas fa-mouse-pointer"></i> Click the "Download" button</li>
+                    <li><i class="fas fa-download"></i> Click on the "Download Video" button that appears</li>
+                </ol>
+            </div>
+            
+            <div class="features">
+                <h2><i class="fas fa-star"></i> Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <i class="fas fa-bolt"></i>
+                        <h3>Fast Download</h3>
+                        <p>Download Pinterest videos in seconds</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Mobile Friendly</h3>
+                        <p>Works perfectly on all devices</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Secure</h3>
+                        <p>No registration or personal data required</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-infinity"></i>
+                        <h3>Unlimited</h3>
+                        <p>No limits on downloads</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>© 2023 Pinterest Video Downloader. This tool is for personal use only.</p>
+            <p>Not affiliated with Pinterest.</p>
+        </footer>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
