@@ -1,0 +1,65 @@
+2025-04-11 17:30:35,477 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-11 17:30:35,477 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 17:30:35,484 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 17:30:37,094 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 17:30:37,105 - werkzeug - INFO -  * Debugger PIN: 859-089-508
+2025-04-11 17:31:20,031 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:31:20] "GET /?ide_webview_request_time=1744372879679 HTTP/1.1" 200 -
+2025-04-11 17:31:20,537 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:31:20] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-11 17:31:20,543 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:31:20] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-04-11 17:31:20,735 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:31:20] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:31:26,771 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:31:26] "GET /?ide_webview_request_time=1744372879679 HTTP/1.1" 200 -
+2025-04-11 17:31:26,862 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:31:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-11 17:31:27,310 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:31:27] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-11 17:31:27,580 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:31:27] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:31:37,108 - __main__ - INFO - Processing URL: https://pin.it/6cCubvCRG...
+2025-04-11 17:31:45,331 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:31:45] "POST /download HTTP/1.1" 200 -
+2025-04-11 17:36:31,062 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.225.51:5000
+2025-04-11 17:36:31,063 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 17:36:31,066 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 17:36:34,310 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 17:36:34,321 - werkzeug - INFO -  * Debugger PIN: 859-089-508
+2025-04-11 17:36:40,752 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:36:40] "GET /?ide_webview_request_time=1744373200389 HTTP/1.1" 200 -
+2025-04-11 17:36:41,174 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:36:41] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-11 17:36:41,225 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:36:41] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-04-11 17:36:41,525 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:36:41] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:37:07,437 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:37:07] "POST /download HTTP/1.1" 200 -
+2025-04-11 17:37:09,341 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:37:09] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:37:09,688 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:37:09] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:37:09,908 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:37:09] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:37:10,008 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:37:10] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:37:10,226 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:37:10] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:37:10,318 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:37:10] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:37:10,549 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:37:10] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:37:23,457 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:37:23] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:37:34,741 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:37:34] "POST /download HTTP/1.1" 200 -
+2025-04-11 17:37:35,579 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:37:35] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:37:35,864 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:37:35] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:37:35,913 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:37:35] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:37:36,210 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:37:36] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:37:36,252 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:37:36] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:37:36,523 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:37:36] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:37:36,637 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:37:36] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:37:36,868 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:37:36] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:44:34,618 - werkzeug - INFO -  * Detected change in 'g:\\TRAE AI\\001_games\\02_pinterest_download\\app.py', reloading
+2025-04-11 17:44:34,838 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 17:45:01,769 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-11 17:45:01,769 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 17:45:05,962 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:45:05] "GET /?ide_webview_request_time=1744373705616 HTTP/1.1" 200 -
+2025-04-11 17:45:06,532 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:45:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-11 17:45:06,612 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:45:06] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-11 17:45:06,793 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:45:06] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:45:21,163 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:45:21] "POST /download HTTP/1.1" 200 -
+2025-04-11 17:45:21,855 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:45:21] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:45:22,193 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:45:22] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:45:22,437 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:45:22] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:45:22,515 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:45:22] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:45:22,744 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:45:22] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:45:22,840 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 17:45:22] "[33mGET /static/img/video-placeholder.jpg HTTP/1.1[0m" 404 -
+2025-04-11 17:48:36,387 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-11 17:48:36,387 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
